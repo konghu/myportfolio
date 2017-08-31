@@ -1,0 +1,227 @@
+body{background-color: #9faec6; color: #fff; font-family: "Source Sans Pro", sans-serif;}
+.clear{clear: both;}
+.row{margin: 0}
+#projectFourImg{height: 500px; overflow: auto;}
+#scroll_wrapper #scroll .ScrollCirclesBig label{line-height: 1.1; color:#88929b;}
+.activeFont{color:#f0f2f3 !important;}
+
+@media screen and (min-width: 1200px) {
+    /*fonts begin*/
+    h2{font-size:40px; padding-bottom: 30px; font-family: "Voltaire", sans-serif;}
+    h3{font-size:22px; padding-bottom: 15px; font-family: "Josefin Sans", sans-serif;}
+    p{line-height: 1.6;}
+    /*fonts end*/
+
+    /*navigation begins*/
+    #navigation {display: inline-block;position: fixed; right: 30px; bottom:20px; height: 130px; width: 130px; z-index:3}
+    #navigation #upArrow{position: relative; left: 46px; top: 8px; transform:rotate(180deg)}
+    #navigation #rightArrow{position: relative; right: -50px; top: 45px;transform:rotate(270deg)    }
+    #navigation #downArrow{position: relative; left: -4px; top: 70px;}
+    #navigation #leftArrow{position: relative; right: 50px; top: 35px; transform:rotate(90deg)}
+    /*navigation ends*/
+
+    /*profile begins*/
+    #profile_wrapper{}
+    #profile_wrapper #profile_picture{display: inline-block;margin-top: 5%;}
+    #profile_wrapper #profile_picture img{border-radius: 1000px 1000px; border: 5px solid #fff;}
+    #profile_wrapper #profile_description{padding-top:30px;font-size: 26px;}
+    /*profile ends*/
+
+    /*project begins*/
+    #project_wrapper{text-align: center;}
+    #project_wrapper img{width: 520px;}
+    #project_wrapper .project_img{margin: 50px 363px;}
+    #project_wrapper #project_video{font-size: 36px; margin-bottom: 50px;}
+    #project_wrapper #project_description{text-align:left; padding-top:30px; width:520px; margin:0 auto;}
+    /*project ends*/
+
+    /*resume begins*/
+    #resume_wrapper {text-align: center; margin:5% auto;}
+    #resume_wrapper #resume_picture{width: 1240px;}
+    #resumeTop{position: relative; top: 6px; z-index: 2; margin:auto 100px;}
+    #resumeTop img{width: 800px}
+    /*resume ends*/
+
+    /*scroll begins*/
+    #scroll_wrapper{position: absolute; left:230px; top:100px; z-index:3}
+    #scroll_wrapper #scroll .ScrollCirclesBig{line-height:0.7; color:#88929b; display:block; width: 15px; height: 15px; border: 2px solid #88929b; border-radius: 50px;}
+    #scroll_wrapper #scroll .ScrollCirclesBig.active{color:#f0f2f3; border:2px solid #f0f2f3;}
+    em{display: block; height: 100px; width: 8px; border-right: 2px solid #88929b;}
+    /*scroll ends*/
+}
+
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+    /*fonts begin*/
+    h2{font-size:40px; padding-bottom: 30px; font-family: "Voltaire", sans-serif;}
+    h3{font-size:22px; padding-bottom: 15px; font-family: "Josefin Sans", sans-serif;}
+    p{line-height: 1.6;}
+    /*fonts end*/
+
+    /*navigation begins*/
+    #navigation {display: inline-block;position: fixed; right: 30px; bottom:20px; height: 130px; width: 130px; z-index:3}
+    #navigation #upArrow{position: relative; left: 46px; top: 8px; transform:rotate(180deg)}
+    #navigation #rightArrow{position: relative; right: -50px; top: 45px;transform:rotate(270deg)    }
+    #navigation #downArrow{position: relative; left: -4px; top: 70px;}
+    #navigation #leftArrow{position: relative; right: 50px; top: 35px; transform:rotate(90deg)}
+    /*navigation ends*/
+
+    /*profile begins*/
+    #profile_wrapper{}
+    #profile_wrapper #profile_picture{margin-top: 5%;}
+    #profile_wrapper #profile_picture img{border-radius: 1000px 1000px; border: 5px solid #fff;}
+    #profile_wrapper #profile_description{padding-top:30px; font-size: 26px;}
+    /*profile ends*/
+
+    /*project begins*/
+    #project_wrapper{text-align: center;}
+    #project_wrapper img{width: 520px;}
+    #project_wrapper #project_video{font-size: 46px; margin-bottom: 50px;}
+    #project_wrapper #project_description{text-align:left; padding-top:30px; font-size: 26px; width:520px; margin:0 auto;}
+    /*project ends*/
+
+    /*resume begins*/
+    #resume_wrapper {text-align: center; margin:8% auto;}
+    #resume_wrapper #resume_picture{width: 1240px;}
+    #resumeTop{position: relative; top: 6px; z-index: 2; margin:auto 100px;}
+    #resumeTop img{width: 800px}
+    /*resume ends*/
+
+    /*scroll begins*/
+    #scroll_wrapper{position: absolute; left:180px; top:100px; z-index:3}
+    #scroll_wrapper #scroll .ScrollCirclesBig{line-height:0.7; color:#88929b; display:block; width: 15px; height: 15px; border: 2px solid #88929b; border-radius: 50px;}
+    #scroll_wrapper #scroll .ScrollCirclesBig.active{color:#f0f2f3; border:2px solid #f0f2f3;}
+    em{display: block; height: 100px; width: 8px; border-right: 2px solid #88929b;}
+    /*scroll ends*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    /*fonts begin*/
+    h2{font-size:36px; padding-bottom: 30px; font-family: "Voltaire", sans-serif;}
+    h3{font-size:20px; padding-bottom: 15px; font-family: "Josefin Sans", sans-serif;}
+    p{line-height: 1.6;}
+    /*fonts end*/
+
+    /*navigation begins*/
+    #navigation {display: inline-block;position: fixed; right: 30px; bottom:20px; height: 130px; width: 130px; z-index:3}
+    #navigation #upArrow{position: relative; left: 46px; top: 8px; transform:rotate(180deg)}
+    #navigation #rightArrow{position: relative; right: -50px; top: 45px;transform:rotate(270deg)    }
+    #navigation #downArrow{position: relative; left: -4px; top: 70px;}
+    #navigation #leftArrow{position: relative; right: 50px; top: 35px; transform:rotate(90deg)}
+    /*navigation ends*/
+
+    /*profile begins*/
+    #profile_wrapper{}
+    #profile_wrapper #profile_picture{margin-top: 15%;}
+    #profile_wrapper #profile_picture img{border-radius: 1000px 1000px; border: 5px solid #fff;}
+    #profile_wrapper #profile_description{text-align:left;padding-top:30px; font-size: 40px;}
+    /*profile ends*/
+
+    /*project begins*/
+    #project_wrapper{text-align: center;}
+    #project_wrapper img{width: 520px;}
+    #project_wrapper #project_video{font-size: 46px; margin-bottom: 50px;}
+    #project_wrapper #project_description{padding-top:30px; font-size: 36px; width:520px; margin:0 auto;}
+    /*project ends*/
+
+    /*resume begins*/
+    #resume_wrapper {text-align: center; margin:13% auto;}
+    #resume_wrapper #resume_picture{width: 1240px;}
+    #resumeTop{position: relative; top: 6px; z-index: 2; margin:auto 100px;}
+    #resumeTop img{width: 800px}
+    /*resume ends*/
+
+    /*scroll begins*/
+    #scroll_wrapper{position: absolute; left:130px; top:100px; z-index:3}
+    #scroll_wrapper #scroll .ScrollCirclesBig{line-height:0.7; color:#88929b; display:block; width: 15px; height: 15px; border: 2px solid #88929b; border-radius: 50px;}
+    #scroll_wrapper #scroll .ScrollCirclesBig.active{color:#f0f2f3; border:2px solid #f0f2f3;}
+    em{display: block; height: 100px; width: 8px; border-right: 2px solid #88929b;}
+    /*scroll ends*/
+}
+
+@media screen and (max-width: 767px) {
+    /*fonts begin*/
+    h2{font-size:32px; padding-bottom: 30px; font-family: "Voltaire", sans-serif;}
+    h3{font-size:18px; padding-bottom: 15px; font-family: "Josefin Sans", sans-serif;}
+    p{line-height: 1.6;}
+    /*fonts end*/
+
+    /*navigation begins*/
+    #navigation {display: inline-block;position: fixed; right: 30px; bottom:20px; height: 130px; width: 130px; z-index:3}
+    #navigation #upArrow{position: relative; left: 46px; top: 8px; transform:rotate(180deg)}
+    #navigation #rightArrow{position: relative; right: -50px; top: 45px;transform:rotate(270deg)    }
+    #navigation #downArrow{position: relative; left: -4px; top: 70px;}
+    #navigation #leftArrow{position: relative; right: 50px; top: 35px; transform:rotate(90deg)}
+    /*navigation ends*/
+
+    /*profile begins*/
+    #profile_wrapper{}
+    #profile_wrapper #profile_picture{margin-top: 20%;}
+    #profile_wrapper #profile_picture img{border-radius: 1000px 1000px; border: 5px solid #fff;}
+    #profile_wrapper #profile_description{padding-top:30px; font-size: 42px;}
+    /*profile ends*/
+
+    /*project begins*/
+    #project_wrapper{text-align: center;}
+    #project_wrapper img{width: 520px;}
+    #project_wrapper #project_video{font-size: 46px; margin-bottom: 50px;}
+    #project_wrapper #project_description{text-align:left; padding-top:30px; font-size:18px; width:520px; margin:0 auto;}
+    /*project ends*/
+
+    /*resume begins*/
+    #resume_wrapper {text-align: center; margin:19% auto;}
+    #resume_wrapper #resume_picture{width: 1240px;}
+    #resumeTop{position: relative; top: 6px; z-index: 2; margin:auto 100px;}
+    #resumeTop img{width: 800px}
+    /*resume ends*/
+
+    /*scroll begins*/
+    #scroll_wrapper{position: absolute; left:80px; top:100px; z-index:3}
+    #scroll_wrapper #scroll .ScrollCirclesBig{line-height:0.7; color:#88929b; display:block; width: 15px; height: 15px; border: 2px solid #88929b; border-radius: 50px;}
+    #scroll_wrapper #scroll .ScrollCirclesBig.active{color:#f0f2f3; border:2px solid #f0f2f3;}
+    em{display: block; height: 100px; width: 8px; border-right: 2px solid #88929b;}
+    /*scroll ends*/
+}
+
+@media screen and (max-device-width: 480px) {
+    /*fonts begin*/
+    h2{font-size:28px; padding-bottom: 30px; font-family: "Voltaire", sans-serif;}
+    h3{font-size:15px; padding-bottom: 15px; font-family: "Josefin Sans", sans-serif;}
+    p{line-height: 1.6;}
+    /*fonts end*/
+
+    /*navigation begins*/
+    #navigation {display: inline-block;position: fixed; right: 30px; bottom:20px; height: 130px; width: 130px; z-index:3}
+    #navigation #upArrow{position: relative; left: 46px; top: 8px; transform:rotate(180deg)}
+    #navigation #rightArrow{position: relative; right: -50px; top: 45px;transform:rotate(270deg)}
+    #navigation #downArrow{position: relative; left: -4px; top: 70px;}
+    #navigation #leftArrow{position: relative; right: 50px; top: 35px; transform:rotate(90deg)}
+    /*navigation ends*/
+
+    /*profile begins*/
+    #profile_wrapper{}
+    #profile_wrapper #profile_picture{margin-top: 25%;}
+    #profile_wrapper #profile_picture img{border-radius: 1000px 1000px; border: 5px solid #fff;}
+    #profile_wrapper #profile_description{padding-top:30px; font-size:44px;}
+    /*profile ends*/
+
+    /*project begins*/
+    #project_wrapper{text-align: center;}
+    #project_wrapper img{width: 520px;}
+    #project_wrapper #project_video{font-size: 46px; margin-bottom: 50px;}
+    #project_wrapper #project_description{text-align:left; padding-top:30px; font-size: 26px; width:520px; margin:0 auto;}
+    /*project ends*/
+
+    /*resume begins*/
+    #resume_wrapper {text-align: center; margin:25% auto;}
+    #resume_wrapper #resume_picture{width: 1240px;}
+    #resumeTop{position: relative; top: 6px; z-index: 2; margin:auto 100px;}
+    #resumeTop img{width: 800px}
+    /*resume ends*/
+
+    /*scroll begins*/
+    #scroll_wrapper{position: absolute; left:30px; top:100px; z-index:3}
+    #scroll_wrapper #scroll .ScrollCirclesBig{line-height:0.7; color:#88929b; display:block; width: 15px; height: 15px; border: 2px solid #88929b; border-radius: 50px;}
+    .active{color:#f0f2f3; border:2px solid #f0f2f3;}
+    em{display: block; height: 100px; width: 8px; border-right: 2px solid #88929b;}
+    /*scroll ends*/
+}
